@@ -50,7 +50,6 @@ export default function CounterUseReducer(){
     const [CustomCounter, setCustomCounter] = useState(0)
 
     function handleSubmit(e) {
-        console.log(e)
         e.preventDefault()
         {/*payload é um atributo do objeto action para inserir valor no state */}
         dispacth({type: actions.custom, payload: CustomCounter})

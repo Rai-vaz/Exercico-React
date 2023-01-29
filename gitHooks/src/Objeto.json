@@ -1,0 +1,64 @@
+{
+	"perguntas" : {
+		{
+			"texto" : "É uma forma de proteção em que os dados são transformados em códigos a fim de impedir que sejam interceptados e usados por indivíduos desautorizados e mal intencionados possam decodificar esses dados.",
+			"resposta" : "criptografia"
+		},
+		{
+			"texto" : "Técnica utilizada por um hacker para captura de informações. É constituída de um software ou hardware, com capacidade de interceptar e registrar o tráfego de dados em uma rede de computadores",
+			"resposta" : "sniffer"
+		},
+		{
+			"texto" : "Fraude eletrônica desenvolvida para roubar informações particulares que sejam valiosas para cometer um roubo ou fraude posteriormente.",
+			"resposta" : "phishing"
+		},
+		{
+			"texto" : "São pessoas com conhecimento em sistemas computacionais que invadem sistemas de computadores a partir de suas vulnerabilidades.",
+			"resposta" : "hacker"
+		},
+		{
+			"texto" : "São programas que através da rede rapidamente se espalham causando problemas. Eles enviam simultaneamente copias de si mesmo, não precisando de outro programa para se reproduzir, produzindo congestionamentos nas redes.",
+			"resposta" : "worm"
+		},
+		{
+			"texto" : "Através de um arquivo aparentemente inofensivo como um cartão virtual  ou um jogo, é capaz de trazer em suas configurações internas ações capazes de gravar informações particulares como senhas e posteriormente enviar para outras pessoas.",
+			"resposta" : "trojan"
+		},
+		{
+			"texto" : "São programas criados para infectarem outros programas causando problema.",
+			"resposta" : "virus"
+		},
+		{
+			"texto" : "Dispositivo utilizado para definir a política de segurança na rede, consiste em controlar o tráfego de dados entre diferentes redes para impedir que esta seja acessada por pessoas mal intencionadas e  também impedindo que receba e envie virus.",
+			"resposta" : "firewall"
+		},
+		{
+			"texto" : "Em segurança da informação, é um processo que busca verificar a identidade digital do usuário de um sistema, normalmente, no momento em que ele requisita um log in (acesso) em um programa ou computador.",
+			"resposta" : "autenticacao"
+		},
+		{
+			"texto" : "É um método de autenticação de informação digital tipicamente tratada como análoga à assinatura física em papel.",
+			"resposta" : "assinatura"
+		}
+		
+	},
+	"respostas" : {
+		{"texto":"Criptografia", "valor":"criptografia", "icone":""},
+		{"texto":"Sniffers", "valor":"sniffer", "icone":""},
+		{"texto":"Phishing", "valor":"phishing", "icone":""},
+		{"texto":"Hacker / Cracker", "valor":"hacker", "icone":""},
+		{"texto":"Worms", "valor":"worm", "icone":""},
+		{"texto":"Trojan Horse (Cavalos de Tróia)", "valor":"trojan", "icone":""},
+		{"texto":"Vírus", "valor":"virus", "icone":""},
+		{"texto":"Firewall", "valor":"firewall", "icone":""},
+		{"texto":"Autenticação", "valor":"autenticacao", "icone":""},
+		{"texto":"Assinatura Digital", "valor":"assinatura", "icone":""}
+	},
+	"paginas" : {
+		{"id":1, "nome":"capa"},
+		{"id":2, "nome":"introducao"},
+		{"id":3, "nome":"quiz"},
+		{"id":4, "nome":"conclusao"}
+		
+	}
+};
