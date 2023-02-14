@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 
 function App() {
@@ -17,6 +17,16 @@ function App() {
 }
 
 function PrivetContent(){
+  useEffect(() => {
+    document.title = "Exibido item ocúlto"
+
+    //desfazendo ação do useEffect
+    return () => {
+      document.title = "Vite + React"
+    }
+  },[])
+
+
   return (
     <h1>CONTEÚDO PRIVADO</h1>
   )
