@@ -18,6 +18,7 @@ function getBirdYear(age){
     return birdYear
 };
 
+
 //sabendo que meu argumento da função será um objeto posso usar de forma desestruturada
 function showPersonalInfo({name, email, age, college}){
     const birdYear = getBirdYear(age)
